@@ -46,6 +46,7 @@ h3 {
 
 .mail:hover, .phone:hover, .linkedin:hover, .badge:hover {
     color: #9b1a1a;
+    text-decoration: underline;
 }
 
 .phone {
