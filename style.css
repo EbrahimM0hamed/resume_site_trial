@@ -170,3 +170,57 @@ h3 {
 .page_end{
     margin: 70px;
 }
+
+/* Media query for mobile devices */
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 20px;
+    }
+    
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 14px;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 12px;
+    }
+
+    .content{
+        font-size: 8px;
+        width: 85%;
+        margin: 0PX auto;
+    }
+
+    .exp_name, .subtitle, .list, .list_2, .column_2, .column_3, .true_sign, .true_sign_column_4 {
+        font-size: 8px;
+        width: 85%;
+        margin: 5PX auto;
+    }
+    .list, .list_2, .column_2, .column_3, .true_sign{
+        margin-left: 12%;
+    }
+
+    .true_sign_column_4 {
+        margin-left: 10%;
+    }
+
+    .date {
+        font-size: 12px;
+        text-align: left;
+        margin: 5px;
+    }
+
+    .mail, .phone, .linkedin {
+        font-size: 10px;
+        text-align: center;
+        margin: 0px 8px;
+    }
+}
